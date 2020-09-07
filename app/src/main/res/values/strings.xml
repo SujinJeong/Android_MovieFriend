@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MA01_20160997</string>
+    <string name="api_url">https://openapi.naver.com/v1/search/movie.xml?display=50&amp;start=1&amp;query=</string>
+    <string name="client_id">mGBtwhkO81yHa1A1Gbpx</string>
+    <string name="client_secret">hY_Rbth8en</string>
+    <string name="my_image_path">/my_images</string>
+    <string name="tmp_image_path">/tmp_images</string>
+    <string name="google_api_key">AIzaSyBG2AEFFzTAYtsHupeFnT--6dFaPldWHzE</string>
+    <string name="init_latitude">37.553042</string>
+    <string name="init_longitude">126.917375</string>
+    <string name="save_btn_toast">DB 저장 또는 수정을 실행</string>
+    <string name="permission_ok_toast">Permission was granted! Restart now!</string>
+    <string name="permission_failed_toast">Permission denied!</string>
+    <string name="hint_type">영화관</string>
+    <string name="type_movie">영화관</string>
+    <string name="openapi_url">https://openapi.naver.com/v1/search/local.xml?display=10&amp;start=1&amp;sort=random&amp;query=</string>
+    <string name="kobis_key">e67d9c6f2a38b88f466a71f2df8acdc6</string>
+    <string name="api_movierank_url">http://www.kobis.or.kr/</string>
+</resources>

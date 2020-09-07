@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/freddiemercury" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center"
+        android:text="도와줘 영화친구"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:textColor="@android:color/background_dark" />
+
+
+    <Button
+        android:id="@+id/buttonMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:onClick="onClick"
+        android:text="무슨 영화를 보시겠어요?"
+        android:textColor="@android:color/holo_orange_light" />
+
+    <Button
+        android:id="@+id/buttonNearby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:onClick="onClick"
+        android:text="가까운 영화관을 찾아드릴까요?"
+        android:textColor="@android:color/holo_orange_light" />
+
+    <Button
+        android:id="@+id/buttonRank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:onClick="onClick"
+        android:text="현재 영화 순위를 알려드릴까요?"
+        android:textColor="@android:color/holo_orange_light" />
+</LinearLayout>
